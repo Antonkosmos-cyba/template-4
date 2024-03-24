@@ -106,19 +106,21 @@
 
 @media (max-width: 376px) {
     .singer {
-        font-size: 30px;
+        padding-top: 10px;
+        font-size: 26px;
+        /* line-height: 100%; */
     }
 
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .singer {
         padding-top: 10px;
         font-size: 26px;
         line-height: 100%;
     }
 
-}
+} */
 
 marquee {
     margin-left: 12px;
