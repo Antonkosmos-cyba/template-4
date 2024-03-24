@@ -155,7 +155,7 @@ function serve() {
   });
   watch("./**.html", series(html)).on("change", sync.reload);
   watch("./**.css", series(css)).on("change", sync.reload);
-  // watch('src/js/**.js', series(js)).on('change', sync.reload)
+  watch("src/js/**.js", series(js)).on("change", sync.reload);
 }
 
 exports.build = series(
