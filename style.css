@@ -28,9 +28,13 @@ footer {
     height: 100px;
 }
 
-.logo {
-    color: #79A870;
-    text-shadow: #ffffff 1px 1px;
+/* .logo {
+    width: 10px;
+    height: auto;
+} */
+
+.foto-logo {
+    width: 180px;
 }
 
 .size {
@@ -85,7 +89,8 @@ h4 {
 }
 
 .blok-foto {
-    max-width: 250px;
+    max-width: 550px;
+    /* max-height: 750px; */
     margin: auto auto;
 }
 
