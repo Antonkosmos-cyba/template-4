@@ -20,6 +20,10 @@
     margin-bottom: 30px;
 }
 
+.container-fluid {
+    padding-left: 0px;
+}
+
 .header-conz {
     margin-bottom: 50px;
 }
@@ -116,10 +120,6 @@ img {
     background-color: #79A870;
     font-size: 20px;
     color: #FAD9C2;
-}
-
-.btn-foto {
-    margin-top: 20px;
 }
 
 .stih {
