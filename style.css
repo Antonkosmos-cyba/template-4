@@ -33,12 +33,30 @@ footer {
 }
 
 /* .logo {
-    width: 10px;
+    max-width: 300px;
     height: auto;
 } */
 
 .foto-logo {
-    width: 180px;
+    width: 200px;
+}
+
+@media (max-width: 769px) {
+    .foto-logo {
+        width: 140px;
+    }
+}
+
+@media (max-width: 426px) {
+    .foto-logo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 376px) {
+    .foto-logo {
+        width: 170px;
+    }
 }
 
 .size {
@@ -113,6 +131,10 @@ img {
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 4px;
+}
+
+.btn-foto {
+    width: 100%;
 }
 
 .btn,
