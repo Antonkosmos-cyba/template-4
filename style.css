@@ -174,7 +174,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: #8531f2;
+    color: #cdb206;
     margin: 0 0 0.5rem 0;
 }
 
@@ -317,7 +317,7 @@ h6 {
 
 
 .modal-content {
-    background-color: #ACE1AF;
+    background-color: #dcddd2;
 }
 
 /* Стилизация скроллбара */
@@ -327,16 +327,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b4f6a6;
+    background-color: #a6eff6;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #79a870;
+    background-color: #73ccd1;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: #a1d897;
+    background-color: #4cd1bd;
 }
 
 .modal-footer,
