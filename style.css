@@ -1,3 +1,8 @@
+:root {
+    --but-scoll: #aa8b7e;
+    --scoll-track: #e2d3ab;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -139,7 +144,7 @@ img {
 
 .btn,
 .btn:hover {
-    background-color: #79A870;
+    background-color: var(--but-scoll);
     font-size: 20px;
     color: #FAD9C2;
 }
@@ -174,7 +179,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: #cdb206;
+    color: var(--but-scolls);
     margin: 0 0 0.5rem 0;
 }
 
@@ -327,16 +332,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #a6eff6;
+    background-color: var(--scoll-track);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #73ccd1;
+    background-color: var(--but-scoll);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: #4cd1bd;
+    background-color: var(--but-scoll);
 }
 
 .modal-footer,
