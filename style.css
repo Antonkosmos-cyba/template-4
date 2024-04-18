@@ -21,8 +21,12 @@
 } */
 
 .header-con {
-    margin-top: 60px;
+    margin-top: 6px;
     margin-bottom: 30px;
+}
+
+.navbar-brand {
+    padding-top: 0;
 }
 
 .container-fluid {
