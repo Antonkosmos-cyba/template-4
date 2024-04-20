@@ -47,24 +47,24 @@ footer {
 } */
 
 .foto-logo {
-    width: 200px;
+    max-width: 200px;
 }
 
 @media (max-width: 769px) {
     .foto-logo {
-        width: 140px;
+        width: 160px;
     }
 }
 
 @media (max-width: 426px) {
     .foto-logo {
-        width: 150px;
+        width: 140px;
     }
 }
 
 @media (max-width: 376px) {
     .foto-logo {
-        width: 170px;
+        width: 120px;
     }
 }
 
