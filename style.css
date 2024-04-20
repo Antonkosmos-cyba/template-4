@@ -28,9 +28,27 @@ footer {
     height: 100px;
 }
 
-.logo {
-    color: #79A870;
-    text-shadow: #ffffff 1px 1px;
+
+.foto-logo {
+    max-width: 200px;
+}
+
+@media (max-width: 769px) {
+    .foto-logo {
+        width: 160px;
+    }
+}
+
+@media (max-width: 426px) {
+    .foto-logo {
+        width: 140px;
+    }
+}
+
+@media (max-width: 376px) {
+    .foto-logo {
+        width: 120px;
+    }
 }
 
 .size {
