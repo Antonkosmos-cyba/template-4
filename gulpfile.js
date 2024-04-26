@@ -72,7 +72,7 @@ function del() {
 function images() {
   return (
     src(
-      "./images/**/*.{jpg,png,jpeg,webp,gif,svg}"
+      "./images/**/*.{jpg,png,jpeg,webp,gif,svg,avf}"
       // '!src/images/icon/*'
     )
       // .pipe(
