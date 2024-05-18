@@ -265,6 +265,10 @@ h6 {
     background-color: #79A870;
 }
 
+.cd-w {
+    width: 100%;
+}
+
 .fon {
     position: relative;
     box-sizing: border-box;
