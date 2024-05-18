@@ -283,10 +283,14 @@ h6 {
     background-color: #c99376;
 }
 
+.cd-w {
+    width: 100%;
+}
+
 .fon {
     position: relative;
     box-sizing: border-box;
-    /* border-radius: 20px; */
+    /* border-radius: 10px; */
     padding: 2px;
     min-height: 50px;
     min-width: 50px;
