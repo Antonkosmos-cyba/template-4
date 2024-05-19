@@ -183,7 +183,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: var(--but-scolls);
+    color: rgb(18, 175, 10);
     margin: 0 0 0.5rem 0;
 }
 
@@ -195,6 +195,19 @@ a {
     padding-left: 10px;
     color: #f5f7f5;
     text-shadow: #0a5512 2px 2px;
+}
+
+.smile {
+    margin: auto 0px auto 10px;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 426px) {
+    .smile {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 h2 {
