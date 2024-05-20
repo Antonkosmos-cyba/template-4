@@ -80,13 +80,13 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 5px groove #aabc05;
-    color: #aabc08;
+    border: 5px groove #68adb5;
+    color: #68adb5;
     font-size: 3em;
 
     &:hover {
         color: rgb(3, 86, 5);
-        border: 5px groove #919651;
+        border: 5px groove #68adb5;
     }
 }
 

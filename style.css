@@ -1,6 +1,6 @@
 :root {
-    --but-scoll: #aa8b7e;
-    --scoll-track: #e2d3ab;
+    --but-scoll: #68adb5;
+    --scoll-track: #7fd1da;
 }
 
 * {
@@ -293,7 +293,7 @@ h6 {
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.974);
-    background-color: #d4ea0a;
+    background-color: #7ad1db;
 }
 
 .cd-w {
