@@ -130,9 +130,9 @@ img {
 
 .btn,
 .btn:hover {
-    background-color: #79A870;
+    background-color: #636363;
     font-size: 20px;
-    color: #FAD9C2;
+    color: #e3dfdc;
 }
 
 .btn-foto {
@@ -178,7 +178,7 @@ a {
 }
 
 .text-h {
-    color: #79A870;
+    color: #707470;
     text-shadow: #ffffff 1px 1px;
 }
 
@@ -315,7 +315,7 @@ h6 {
 
 
 .modal-content {
-    background-color: #ACE1AF;
+    background-color: #9f9b9b;
 }
 
 /* Стилизация скроллбара */
@@ -325,16 +325,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b4f6a6;
+    background-color: #9b9b9b;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #79a870;
+    background-color: #636363;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: #a1d897;
+    background-color: #636363;
 }
 
 .modal-footer,

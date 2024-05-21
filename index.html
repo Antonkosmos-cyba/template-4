@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="./css/player.css">
   <link rel="stylesheet" href="./font/awesome/css/all.min.css">
   <link rel="shortcut icon" href="/images/muz.png">
-  <title>Для Насти</title>
+  <title>Одиночество</title>
 </head>
 
-<body style="background-image: url(./images/fon.jpg);
+<body style="background-image: url(./images/fon-d.jpg);
 -webkit-background-size: cover;
 background-size: cover;
 background-attachment: fixed;
@@ -25,14 +25,14 @@ min-height: 100vh; padding: 4px;">
         <div class="navbar-brand navp d-flex" href="#">
 
           <div class="text-h">
-            <h2 class="h2-t lin">"Дорогой Насте!!!"</h2>
+            <h2 class="h2-t lin">"Одиночество!!!"</h2>
           </div>
 
         </div>
 
       </div>
       <div class="text-h">
-        <h6 class="h6-t">Музыкальная Интернет-таблетка</h6>
+        <h6 class="h6-t">Две весны песни</h6>
       </div>
     </nav>
   </div>
@@ -40,24 +40,20 @@ min-height: 100vh; padding: 4px;">
     <div class="container header-con">
       <div class="blok-foto">
         <img class="foto" src="./images/an2.png" alt="">
-        <button type="button" class="btn btn-foto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-foto" data-bs-toggle="modal" data-bs-target="#staticBackdrop-1">
+          Загляни сюда
+        </button>
+        <button type="button" class="btn btn-foto" data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">
           Загляни сюда
         </button>
 
       </div>
     </div>
-    <!-- <div class="container header-conz">
-      <div class="cotainer blok-foto fon">
-        <a href="https://meconnect.ru/kaferomashka" target="_blank"> <button type="button" class="btn ">&#128176;
-            Заказать песню
-            &#128176;</button></a>
-      </div>
-    </div> -->
     <div class="container">
       <!-- Кнопка-триггер модального окна -->
 
       <!-- Модальное окно -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      <div class="modal fade" id="staticBackdrop-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -68,7 +64,7 @@ min-height: 100vh; padding: 4px;">
             <hr>
             <!-- вставить скролл -->
             <div class="modal-body">
-              <img class="stih" src="./images/stih1.jpeg" alt="">
+              <video controls class="stih" src="./media/video/gorod312.mp4"></video>
               <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum odio, illo nobis, non doloremque
                 reprehenderit ut iste voluptates ab assumenda corrupti quos culpa adipisci quasi! Voluptatum eaque
                 corrupti provident aliquid ducimus, ut ab quos accusamus ea doloribus magnam sed earum fugit in
@@ -97,95 +93,39 @@ min-height: 100vh; padding: 4px;">
         </div>
       </div>
     </div>
-  </section>
-
-  <section>
     <div class="container">
-      <div class="row">
-        <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-3 mb-sm-0 pb-3 pb-3">
-          <div class="card">
-            <section>
-              <image class='cd-w card-b-images' src="./images/foto-muz/muz3.jpg" />
-              <div class="info">
-                <div class='left'>
-                  <div class="singer">Марина Бриз</div>
-                  <div class="name">"Надо"</div>
-                </div>
-                <div class='right'>
-                  <audio id="demo1" src="./media/muz/na1.mp3">
-                  </audio>
-                  <button id='play1' class="play">
-                    <i class="fa-solid fa-circle-play"></i>
-                  </button>
-                  <button id='pause1' class="pause">
-                    <i class="fa-solid fa-circle-pause"></i>
-                  </button>
-                </div>
-              </div>
+      <!-- Кнопка-триггер модального окна -->
 
-            </section>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-3 mb-sm-0 pb-2">
-          <div class="card">
-            <section>
-              <image class='cd-w card-b-images' src="./images/foto-muz/muz2.jpg" />
-              <div class="info">
-                <div class='left'>
-                  <div class="singer">Лариса Мондрус</div>
-                  <marquee direction="left" scrollamount="2">
+      <!-- Модальное окно -->
+      <div class="modal fade" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 clw" id="staticBackdropLabel">От всей души!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <hr>
+            <!-- вставить скролл -->
+            <div class="modal-body">
+              <video class="stih" controls src="./media/video/basta_gorod312.mp4"></video>
+            </div>
 
-                    <div class="name">"Проснись и Пой!"</div>
-                  </marquee>
-                </div>
-                <div class='right'>
-                  <audio id="demo2" src="./media/muz/na4.mp3">
-                  </audio>
-                  <button id='play2' class="play">
-                    <i class="fa-solid fa-circle-play"></i>
-                  </button>
-                  <button id='pause2' class="pause">
-                    <i class="fa-solid fa-circle-pause"></i>
-                  </button>
-                </div>
-              </div>
-
-            </section>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6 col-sm-12 text-center mb-3 mb-sm-0 pb-2 ">
-          <div class="card">
-            <section>
-              <image class='cd-w card-b-images' src="./images/foto-muz/muz1.jpg" />
-              <div class="info">
-                <div class='left'>
-                  <div class="singer">Митя Фомин</div>
-                  <marquee direction="left" scrollamount="2">
-                    <div class="name">"Всё будеть хорошо!"</div>
-                  </marquee>
-                </div>
-                <div class='right'>
-                  <audio id="demo3" src="./media/muz/na3.mp3">
-                  </audio>
-                  <button id='play3' class="play">
-                    <i class="fa-solid fa-circle-play"></i>
-                  </button>
-                  <button id='pause3' class="pause">
-                    <i class="fa-solid fa-circle-pause"></i>
-                  </button>
-                </div>
-              </div>
-
-            </section>
+            <hr>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-color2" data-bs-dismiss="modal">Вернись</button>
+              <!-- <button type="button" class="btn btn-primary">Понял</button> -->
+            </div>
           </div>
         </div>
       </div>
-      <hr>
     </div>
   </section>
-  <footer>
-    <div class="container d-flex jca justify-content-between">
-      <!-- <div>
+
+  <section>
+    <footer>
+      <div class="container d-flex jca justify-content-between">
+        <!-- <div>
         <a href="https://ok.ru/kaferomashka" target="_blank"><img class="svg lg" src="./images/ok.svg" alt=""></a>
         <a href="https://vk.com/kaferomashka" target="_blank"><img class="svg lg" src="./images/vk.svg" alt=""></a>
         <a href="https://t.me/muzprofi" target="_blank"><img class="svg svg2" src="./images/telegram.png" alt=""></a>
@@ -193,13 +133,13 @@ min-height: 100vh; padding: 4px;">
             alt=""></a>
       </div> -->
 
-      <div class="logo">
-        <img class="foto-logo" src="./images/logo-1.png" alt="">
+        <div class="logo">
+          <img class="foto-logo" src="./images/logo-1.png" alt="">
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="./bootstrap.bundle.min.js"></script>
-  <script src="./js/script_play.js"></script>
+    </footer>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./js/script_play.js"></script>
 </body>
 
 </html>
