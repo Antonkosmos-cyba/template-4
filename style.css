@@ -24,6 +24,10 @@
     margin-bottom: 50px;
 }
 
+.navp {
+    padding: 0px;
+}
+
 footer {
     height: 100px;
 }
@@ -174,7 +178,6 @@ a {
 }
 
 .text-h {
-    padding-left: 10px;
     color: #79A870;
     text-shadow: #ffffff 1px 1px;
 }
