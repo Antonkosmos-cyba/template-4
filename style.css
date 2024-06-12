@@ -107,7 +107,7 @@ h4 {
 }
 
 .blok-foto {
-    max-width: 250px;
+    max-width: 450px;
     margin: auto auto;
 }
 
@@ -137,6 +137,7 @@ img {
 
 .btn-foto {
     margin-top: 20px;
+    width: 100%;
 }
 
 .stih {
@@ -154,14 +155,16 @@ img {
     background-color: #FFEFD5;
 } */
 
-/* 
+
 .clw {
+
     color: #032066;
-} */
+}
 
 video {
     width: 100%;
     height: auto;
+    border-radius: 3%;
 }
 
 hr:not([size]) {
@@ -197,7 +200,7 @@ h6 {
     }
 
     .h6-t {
-        font-size: 21px;
+        font-size: 25px;
     }
 }
 
@@ -213,11 +216,11 @@ h6 {
 
 @media (max-width: 426px) {
     .h2-t {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .h6-t {
-        font-size: 14px;
+        font-size: 25px;
     }
 
 }
@@ -228,14 +231,14 @@ h6 {
     }
 
     .h6-t {
-        font-size: 16px;
+        font-size: 19px;
     }
 
 }
 
 @media (max-width: 320px) {
     .h6-t {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .h2-t {
