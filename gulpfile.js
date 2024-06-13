@@ -50,7 +50,7 @@ function css() {
       .pipe(csso())
       // .pipe(concat('index.css'))
       .pipe(removeComments())
-      .pipe(dest("dist/css"))
+      .pipe(dest("dist/"))
       .pipe(sync.reload({ stream: true }))
   );
 }

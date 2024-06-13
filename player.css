@@ -1,42 +1,34 @@
 @font-face {
     font-family: "Caveat-Regular";
-    src: url("../font/caveat/Caveat-Regular.ttf") format("truetype");
+    src: url("./font/caveat/Caveat-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Caveat-Bold";
-    src: local("Caveat-Bold"), url("../font/caveat/Caveat-Bold.ttf") format("truetype");
+    src: local("Caveat-Bold"), url("./font/caveat/Caveat-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Caveat-Medium";
-    src: url("../font/caveat/Caveat-Medium.ttf") format("truetype");
+    src: url("./font/caveat/Caveat-Medium.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+    src: url("./font/roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Bold";
-    src: url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+    src: url("./font/roboto/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Medium";
-    src: url("../font/roboto/Roboto-Medium.ttf") format("truetype");
+    src: url("./font/roboto/Roboto-Medium.ttf") format("truetype");
 }
 
-@font-face {
-    font-family: "Nunito";
-    src: url("../font/ofont.ru_Nunito.ttf ") format("truetype");
-}
 
-@font-face {
-    font-family: "Czizh";
-    src: url("../font/ofont.ru_Czizh.ttf") format("truetype");
-}
 
 
 .autor {
