@@ -175,6 +175,7 @@ img {
     font-family: "Czizh";
     font-size: 30px;
     font-weight: 400;
+    text-align: center;
 }
 
 video {
@@ -188,7 +189,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: #8531f2;
+    color: #1f9c0b;
     margin: 0 0 0.5rem 0;
 }
 
@@ -197,8 +198,8 @@ a {
 }
 
 .text-h {
-    color: #79A870;
-    text-shadow: #ffffff 1px 1px;
+    color: #379d24;
+    text-shadow: #ffffff 2px 2px;
 }
 
 h2 {
