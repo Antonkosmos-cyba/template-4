@@ -114,6 +114,7 @@ h4 {
     max-width: 550px;
     /* max-height: 750px; */
     margin: auto auto;
+    position: relative;
 }
 
 .foto {
@@ -124,6 +125,21 @@ h4 {
 
 img {
     border-radius: 10px;
+}
+
+.tit {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    margin: auto auto;
+    color: #f7f4f4;
+    text-shadow: #0a5512 2px 2px;
+}
+
+@media (max-width: 768px) {
+    .tit {
+        left: 130px;
+    }
 }
 
 .btn {
