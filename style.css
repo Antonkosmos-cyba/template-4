@@ -129,16 +129,38 @@ img {
 
 .tit {
     position: absolute;
-    top: 10px;
+    top: 250px;
     left: 100px;
     margin: auto auto;
     color: #f7f4f4;
     text-shadow: #0a5512 2px 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .tit {
         left: 130px;
+
+    }
+}
+
+@media (max-width: 430px) {
+    .tit {
+        left: 65px;
+        top: 170px;
+    }
+}
+
+@media (max-width: 380px) {
+    .tit {
+        left: 35px;
+        top: 140px;
+    }
+}
+
+@media (max-width: 330px) {
+    .tit {
+        left: 15px;
+        top: 120px;
     }
 }
 
@@ -190,7 +212,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: #8531f2;
+    color: #878552;
     margin: 0 0 0.5rem 0;
 }
 
