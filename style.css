@@ -382,14 +382,18 @@ h6 {
     border: none;
 }
 
+.modal-header {
+    padding-bottom: 0px;
+}
+
 .modal-body {
     font-size: 20px;
-    height: 500px;
+    height: 250px;
     overflow-y: auto;
 
 }
 
-@media(max-width: 770px) {
+/* @media(max-width: 770px) {
     .modal-body {
         height: 400px;
     }
@@ -399,7 +403,7 @@ h6 {
     .modal-body {
         height: 350px;
     }
-}
+} */
 
 .modal-body .card-b-images {
     border-radius: 10px;
