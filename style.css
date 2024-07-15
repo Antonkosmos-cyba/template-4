@@ -130,7 +130,7 @@ img {
 .tit {
     position: absolute;
     top: 250px;
-    left: 100px;
+    left: 180px;
     margin: auto auto;
     color: #f7f4f4;
     text-shadow: #0a5512 2px 2px;
@@ -138,22 +138,22 @@ img {
 
 @media (max-width: 770px) {
     .tit {
-        left: 130px;
+        left: 190px;
 
     }
 }
 
 @media (max-width: 430px) {
     .tit {
-        left: 65px;
-        top: 170px;
+        left: 120px;
+        top: 180px;
     }
 }
 
 @media (max-width: 380px) {
     .tit {
-        left: 35px;
-        top: 140px;
+        left: 99px;
+        top: 150px;
     }
 }
 
@@ -177,7 +177,7 @@ img {
 
 .btn,
 .btn:hover {
-    background-color: #878552;
+    background-color: #6aaaa2;
     font-size: 20px;
     color: #e3e2e2;
 }
@@ -212,7 +212,7 @@ hr:not([size]) {
 }
 
 hr {
-    color: #878552;
+    color: #52877d;
     margin: 0 0 0.5rem 0;
 }
 
@@ -309,7 +309,7 @@ h6 {
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.974);
-    background-color: #79A870;
+    background-color: #6aaaa2;
 }
 
 .fon {
@@ -355,7 +355,7 @@ h6 {
 
 
 .modal-content {
-    background-color: #d3ba8a;
+    background-color: #4ca090;
 }
 
 /* Стилизация скроллбара */
@@ -365,16 +365,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b4f6a6;
+    background-color: #90e1d7;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #79a870;
+    background-color: #6aaaa2;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: #a1d897;
+    background-color: #88bec4;
 }
 
 .modal-footer,
@@ -388,7 +388,7 @@ h6 {
 
 .modal-body {
     font-size: 20px;
-    height: 250px;
+    height: 260px;
     overflow-y: auto;
 
 }

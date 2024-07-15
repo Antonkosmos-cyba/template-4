@@ -142,7 +142,9 @@ function muzik() {
 }
 
 function video() {
-  return src("./media/video/*.{mp4,webm}").pipe(dest("dist/media/video/"));
+  return src("./media/video/*.{mp4,webm,mkv,mkv}").pipe(
+    dest("dist/media/video/")
+  );
 }
 
 function font() {
