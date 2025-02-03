@@ -119,18 +119,20 @@ h4 {
 
 img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .btn {
     width: 250px;
     border-radius: 10px;
-    margin-bottom: 10px;
-    margin-top: 4px;
+    /* margin-bottom: 15px; */
+    /* margin-top: 14px; */
+    margin: 15px auto;
 }
 
 .btn,
 .btn:hover {
-    background-color: #79A870;
+    background-color: #754dae;
     font-size: 20px;
     color: #FAD9C2;
 }
@@ -265,7 +267,7 @@ h6 {
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.974);
-    background-color: #79A870;
+    background-color: #3b5bc7;
 }
 
 .cd-w {
