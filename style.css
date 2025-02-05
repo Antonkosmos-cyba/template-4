@@ -291,6 +291,12 @@ h6 {
     background-color: #3b5bc7;
 }
 
+.card-text {
+    font-size: clamp(0.8125rem, 0.5711rem + 1.2069vw, 1.25rem);
+    padding-top: 10px;
+    color: #FAD9C2;
+}
+
 .cd-w {
     width: 100%;
 }
