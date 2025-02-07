@@ -136,12 +136,12 @@ img {
 }
 
 .btn-foto {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .stih {
     max-width: 100%;
-    max-height: auto;
+    max-height: fit-content;
 }
 
 /* .btn-color {
@@ -344,9 +344,16 @@ h6 {
 
 .modal-body {
     font-size: 20px;
-    height: 500px;
+    height: 350px;
     overflow-y: auto;
 
+}
+
+@media (min-width: 658px) {
+    .modal-body {
+        height: 430px;
+
+    }
 }
 
 .modal-body .card-b-images {
