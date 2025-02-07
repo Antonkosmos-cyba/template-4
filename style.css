@@ -208,6 +208,14 @@ h6 {
     display: flex;
     justify-content: space-between;
     margin: 50px 50px 0 50px;
+
+
+}
+
+@media (max-width: 425px) {
+    .name {
+        margin: 25px 25px 0 25px;
+    }
 }
 
 .hr {
