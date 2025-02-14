@@ -28,6 +28,12 @@
     padding: 0px;
 }
 
+.fix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 footer {
     height: 100px;
 }
