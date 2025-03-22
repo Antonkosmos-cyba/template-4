@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Caveat_bold';
+    src: url(./font/caveat/Caveat-Bold.ttf);
+}
+
 /* .bcg {
     position: absolute;
     z-index: -1;
@@ -60,9 +65,9 @@ footer {
     width: 80px;
 }
 
-.lin {
+/* .lin {
     line-height: 80px;
-}
+} */
 
 @media (max-width: 430px) {
     .size {
@@ -107,7 +112,7 @@ h4 {
 }
 
 .blok-foto {
-    max-width: 250px;
+    max-width: 335px;
     margin: auto auto;
 }
 
@@ -178,8 +183,9 @@ a {
 }
 
 .text-h {
-    color: #79A870;
-    text-shadow: #ffffff 1px 1px;
+    font-family: "Caveat-bold";
+    color: #c46eb7;
+    text-shadow: #ffffff 2px 2px;
 }
 
 h2 {
@@ -191,56 +197,8 @@ h6 {
     font-size: 28px;
 }
 
-@media (max-width: 767px) {
-    .h2-t {
-        font-size: 35px;
-    }
-
-    .h6-t {
-        font-size: 21px;
-    }
-}
-
-@media (max-width: 718px) {
-    .h2-t {
-        font-size: 35px;
-    }
-
-    .h6-t {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 426px) {
-    .h2-t {
-        font-size: 30px;
-    }
-
-    .h6-t {
-        font-size: 14px;
-    }
-
-}
-
-@media (max-width: 376px) {
-    .h2-t {
-        font-size: 26px;
-    }
-
-    .h6-t {
-        font-size: 16px;
-    }
-
-}
-
-@media (max-width: 320px) {
-    .h6-t {
-        font-size: 15px;
-    }
-
-    .h2-t {
-        font-size: 28px;
-    }
+.h2-t {
+    font-size: clamp(1.875rem, 1.3636rem + 2.5568vw, 3rem);
 }
 
 .bgc {
@@ -265,7 +223,7 @@ h6 {
     font-size: 14px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.974);
-    background-color: #79A870;
+    background-color: #ffaee0;
 }
 
 .cd-w {
@@ -325,16 +283,16 @@ h6 {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #b4f6a6;
+    background-color: #f6a6ea;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #79a870;
+    background-color: #a870a4;
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-button {
-    background-color: #a1d897;
+    background-color: #d897c0;
 }
 
 .modal-footer,

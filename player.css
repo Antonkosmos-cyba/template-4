@@ -80,8 +80,8 @@
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    border: 5px groove #79A870;
-    color: #79A870;
+    border: 5px groove #a87093;
+    color: #941c90;
     font-size: 3em;
 
     &:hover {
@@ -95,7 +95,7 @@
 }
 
 .singer {
-    font-size: 2.5em;
+    font-size: clamp(1.875rem, 1.9034rem + -0.142vw, 1.8125rem);
     margin-bottom: 5px;
     font-family: "Caveat-Medium";
     color: #ffffff;
