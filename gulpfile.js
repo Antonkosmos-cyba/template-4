@@ -181,6 +181,7 @@ exports.serve = series(
   video,
   font,
   js,
+  jsmuz,
   css,
   cssbs,
   html,
