@@ -234,66 +234,17 @@ a {
     text-shadow: #0a5512 2px 2px;
 }
 
-h2 {
-    margin-bottom: 0;
-    font-size: 40px;
+/** СДЕЛАТЬ НОВЫЙ СТИЛЬ **/
+
+.h2-t {
+    font-size: clamp(2.5rem, 2.7841rem + -1.4205vw, 1.875rem);
 }
 
-h6 {
-    font-size: 28px;
+.h6-t {
+    font-size: clamp(1.25rem, 1.108rem + 0.7102vw, 1.5625rem);
 }
 
-@media (max-width: 767px) {
-    .h2-t {
-        font-size: 35px;
-    }
-
-    .h6-t {
-        font-size: 21px;
-    }
-}
-
-@media (max-width: 718px) {
-    .h2-t {
-        font-size: 35px;
-    }
-
-    .h6-t {
-        font-size: 20px;
-    }
-}
-
-@media (max-width: 426px) {
-    .h2-t {
-        font-size: 30px;
-    }
-
-    .h6-t {
-        font-size: 14px;
-    }
-
-}
-
-@media (max-width: 376px) {
-    .h2-t {
-        font-size: 26px;
-    }
-
-    .h6-t {
-        font-size: 16px;
-    }
-
-}
-
-@media (max-width: 320px) {
-    .h6-t {
-        font-size: 15px;
-    }
-
-    .h2-t {
-        font-size: 28px;
-    }
-}
+/*КОНЕЦ НОВОГО СТИЛЯ */
 
 .bgc {
     backdrop-filter: blur(10px);

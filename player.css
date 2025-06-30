@@ -28,6 +28,10 @@
     src: url("../font/roboto/Roboto-Medium.ttf") format("truetype");
 }
 
+#border {
+    border-radius: 11px;
+}
+
 
 .autor {
     display: block;
@@ -57,25 +61,25 @@
 
 }
 
-.right {
+/* .right {
     padding: 25px 0;
     float: left;
     width: 40%;
     text-align: center;
-}
+} */
 
 @media (max-width:425px) {
     .left {
         width: 100%;
     }
 
-    .right {
+    /* .right {
         width: 100%;
         float: none;
-    }
+    } */
 }
 
-.play,
+/* .play,
 .pause {
     height: 60px;
     width: 60px;
@@ -92,10 +96,10 @@
 
 .play {
     margin-right: 7px;
-}
+} */
 
 .singer {
-    font-size: 2.5em;
+    font-size: clamp(2.5rem, 2.7841rem + -1.4205vw, 1.875rem);
     margin-bottom: 5px;
     font-family: "Caveat-Medium";
     color: #ffffff;
@@ -127,10 +131,12 @@ marquee {
 }
 
 .name {
-    font-size: 1.5em;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: clamp(1.5625rem, 1.5909rem + -0.142vw, 1.5rem);
     font-family: "Roboto-Medium";
     color: rgb(255, 255, 255);
     text-shadow: rgb(64, 63, 63) 2px 2px;
     text-align: start;
-    padding-left: 10px;
+
 }
